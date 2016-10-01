@@ -48,7 +48,7 @@ class TrieNode {
     	w=new String[109576];
     	root = new TrieNode();
     	try{
-    		InputStream fis = new FileInputStream("F:/amulya/dict.txt");
+    		InputStream fis = new FileInputStream("dict.txt");
     		String line;
     	    InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
     	    BufferedReader br = new BufferedReader(isr);
